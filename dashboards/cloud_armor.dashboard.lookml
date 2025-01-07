@@ -1,3 +1,4 @@
+---
 - dashboard: google_cloud_armor
   title: Google Cloud Armor
   layout: newspaper
@@ -60,7 +61,6 @@
             name: "∅"}], showLabels: false, showValues: false, valueFormat: '', unpinAxis: false,
         tickDensity: default, tickDensityCustom: 5, type: linear}]
     x_axis_label: Day
-    series_types: {}
     series_colors: {}
     reference_lines: []
     trend_lines: []
@@ -132,7 +132,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -199,7 +198,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -266,7 +264,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -331,7 +328,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     hidden_fields:
     listen:
       Date: requests.receive_timestamp_date
@@ -397,7 +393,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -462,7 +457,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -473,7 +467,6 @@
   - name: Details
     type: text
     title_text: Details
-    subtitle_text: ''
     body_text: ''
     row: 41
     col: 0
@@ -542,7 +535,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -603,7 +595,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -668,7 +659,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     hidden_fields:
     listen:
       Date: requests.receive_timestamp_date
@@ -735,7 +725,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -796,7 +785,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     hidden_fields:
     listen:
       Date: requests.receive_timestamp_date
@@ -864,7 +852,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -931,7 +918,6 @@
     stacking: percent
     limit_displayed_rows: false
     legend_position: center
-    series_types: {}
     point_style: none
     show_value_labels: true
     label_density: 25
@@ -1020,7 +1006,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -1081,7 +1066,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     hidden_fields:
     listen:
       Date: requests.receive_timestamp_date
@@ -1150,7 +1134,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -1210,7 +1193,6 @@
     trellis: ''
     stacking: ''
     legend_position: center
-    series_types: {}
     point_style: none
     series_colors: {}
     show_value_labels: false
@@ -1295,7 +1277,6 @@
     show_silhouette: false
     totals_color: "#808080"
     defaults_version: 1
-    series_types: {}
     listen:
       Date: requests.receive_timestamp_date
       Platform Response: requests.cache_hit_and_cache_miss
@@ -1306,7 +1287,6 @@
   - name: Event Summary
     type: text
     title_text: Event Summary
-    subtitle_text: ''
     body_text: ''
     row: 4
     col: 0
@@ -1371,7 +1351,6 @@
     stacking: percent
     limit_displayed_rows: false
     legend_position: center
-    series_types: {}
     point_style: none
     show_value_labels: true
     label_density: 25
@@ -1458,7 +1437,6 @@
     stacking: percent
     limit_displayed_rows: false
     legend_position: center
-    series_types: {}
     point_style: none
     show_value_labels: true
     label_density: 25
@@ -1491,7 +1469,6 @@
   - name: ''
     type: text
     title_text: ''
-    subtitle_text: ''
     body_text: |-
       <div align="center">
       <p><img src="https://i.imgur.com/kCcwzIc.png" width="110px"
@@ -1508,7 +1485,7 @@
   - name: Platform Response
     title: Platform Response
     type: field_filter
-    default_value: '"body_denied_by_security_policy","denied_by_security_policy","response_sent_by_backend","websocket_closed"'
+    default_value: ''
     allow_multiple_values: true
     required: false
     ui_config:
@@ -1521,7 +1498,7 @@
   - name: Date
     title: Date
     type: field_filter
-    default_value: this year to second
+    default_value: 90 day
     allow_multiple_values: true
     required: false
     ui_config:
